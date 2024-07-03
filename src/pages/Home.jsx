@@ -1,9 +1,13 @@
+import Banner from "../components/Banner";
 
 const Home = () => {
 
     return (
         <div>
-            <h2>Hi there</h2>
+            <Banner />
+            <a href="../resume.pdf" download="webtips.png">
+                📥 Download with custom name
+            </a>
         </div>
     );
 };
