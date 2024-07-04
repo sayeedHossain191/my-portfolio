@@ -46,8 +46,12 @@ const Navbar = () => {
                             <li>
                                 <Link to='/'>Home</Link>
                             </li>
-                            <li><a>About</a></li>
-                            <li><a>Contact</a></li>
+                            <li>
+                                <Link to='/about'>About</Link>
+                            </li>
+                            <li>
+                                <Link to='/contact'>Contact</Link>
+                            </li>
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-xl gap-0">Sayeed<span className="text-[#70ff00]">Hossain</span></a>
@@ -57,8 +61,12 @@ const Navbar = () => {
                         <li>
                             <Link to='/'>Home</Link>
                         </li>
-                        <li><a>About</a></li>
-                        <li><a>Contact</a></li>
+                        <li>
+                            <Link to='/about'>About</Link>
+                        </li>
+                        <li>
+                            <Link to='/contact'>Contact</Link>
+                        </li>
                     </ul>
                 </div>
                 <div className="navbar-end">
