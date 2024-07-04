@@ -7,12 +7,12 @@ import { MdEmail } from 'react-icons/md';
 const Footer = () => {
     return (
         <div className='mt-20'>
-            <footer className="footer bg-base-300 text-base-content justify-between px-20 p-10">
+            <footer className="footer bg-base-200 text-base-content justify-between px-20 pt-10 pb-4">
                 <nav>
                     <h6 className="footer-title">Social</h6>
-                    <div className='flex gap-4'>
-                        <a href=""><FaGithub /></a>
-                        <a href=""><FaLinkedinIn /></a>
+                    <div className='flex gap-4 text-lg'>
+                        <a href="https://github.com/sayeedHossain191"><FaGithub /></a>
+                        <a href="https://www.linkedin.com/in/sayeed-hossain/"><FaLinkedinIn /></a>
                         <a href=""><FaFacebook /></a>
                         <a href=""><FaInstagram /></a>
                     </div>
@@ -37,8 +37,8 @@ const Footer = () => {
 
             </footer>
 
-
-            <footer className="footer footer-center bg-base-200 text-base-content rounded p-10">
+            <hr className='mx-20' />
+            <footer className="footer footer-center bg-base-200 text-base-content rounded pt-4">
                 <nav className="grid grid-flow-col gap-40">
                     <a className="link link-hover">Home</a>
                     <a className="link link-hover">About</a>
@@ -46,7 +46,7 @@ const Footer = () => {
                 </nav>
 
                 <aside>
-                    <p>Copyright © ${new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+                    <p className='text-xs pb-3'>Copyright © ${new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
                 </aside>
             </footer>
         </div>

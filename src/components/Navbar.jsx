@@ -70,8 +70,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-ghost"><FaGithub className="text-2xl" /></a>
-                    <a className="btn btn-ghost"><FaLinkedin className="text-2xl" /></a>
+                    <a href="https://github.com/sayeedHossain191" className="btn btn-ghost"><FaGithub className="text-2xl" /></a>
+                    <a href="https://www.linkedin.com/in/sayeed-hossain/" className="btn btn-ghost"><FaLinkedin className="text-2xl" /></a>
                 </div>
             </div>
         </div>
