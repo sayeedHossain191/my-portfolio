@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Banner from "../components/Banner";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";

@@ -8,7 +8,7 @@ const Projects = () => {
         <div>
             <h3 className="text-[#70ff00] font-courier text-3xl my-20 text-center">Projects()</h3>
             {/* Project-1 */}
-            <div className='grid lg:grid-cols-2 md:grid-cols-1 gap-12 items-center'>
+            <div className='grid lg:grid-cols-2 md:grid-cols-1 gap-12 items-center scale-90'>
                 <div className="card rounded-none bg-base-100 max-w-screen-lg shadow-xl">
                     <figure>
                         <img
@@ -44,7 +44,7 @@ const Projects = () => {
                 </div>
             </div>
             {/* Project-2 */}
-            <div className='grid lg:grid-cols-2 md:grid-cols-1 gap-12 items-center mt-20'>
+            <div className='grid lg:grid-cols-2 md:grid-cols-1 gap-12 items-center mt-20 scale-90'>
                 <div className="card bg-base-100 max-w-screen-lg shadow-xl border">
                     <div className="card-body">
                         <h2 className="card-title">HeadRoom</h2>
@@ -79,7 +79,7 @@ const Projects = () => {
                 </div>
             </div>
             {/* Project-3 */}
-            <div className='grid lg:grid-cols-2 md:grid-cols-1 gap-12 items-center mt-20'>
+            <div className='grid lg:grid-cols-2 md:grid-cols-1 gap-12 items-center mt-20 scale-90'>
                 <div className="card rounded-none bg-base-100 max-w-screen-lg shadow-xl">
                     <figure>
                         <img
