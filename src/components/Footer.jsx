@@ -75,15 +75,13 @@ const Footer = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.4 }}
       >
-        <span>Made </span>
-        <motion.div
+        <span>Made by Sayeed Hossain Sagor</span>
+        {/* <motion.div
           animate={{ scale: [1, 1.2, 1] }}
           transition={{ duration: 1, repeat: Infinity, ease: "easeInOut" }}
-        ></motion.div>
-        <span>by Sayeed Hossain Sagor</span>
+        ></motion.div> */}
       </motion.div>
 
-      {/* Copyright */}
       <motion.p
         className="text-gray-500 text-sm text-center"
         initial={{ opacity: 0 }}
