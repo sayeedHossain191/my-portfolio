@@ -36,13 +36,13 @@ export function Contact() {
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
+      value: "+8801747360201",
       href: "tel:+15551234567",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Dhaka, Bangladesh",
       href: "#",
     },
   ];
